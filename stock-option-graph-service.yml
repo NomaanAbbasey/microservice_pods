@@ -9,7 +9,7 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-      targetPort: 8000
+      targetPort: 80
   selector:
     name: stock-graph-pod
     app: stock-graph-microservice-app
