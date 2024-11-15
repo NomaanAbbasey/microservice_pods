@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: graph
+  labels:
+    name: graph-service
+    app: stock-graph-app
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    name: stock-graph-pod
+    app: stock-graph-microservice-app

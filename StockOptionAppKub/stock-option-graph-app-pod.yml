@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stock-option-graph-app-pod
+  labels:
+    name: stock-graph-pod
+    app: stock-graph-microservice-app
+
+spec:
+  containers:
+    - name: graph-app
+      image: nomaan308/stockoptiongraph
+      ports:
+        - containerPort: 80

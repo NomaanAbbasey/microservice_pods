@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stock-option-exchange-app-pod
+  labels:
+    name: stock-exchange-pod
+    app: stock-exchange-microservice_app
+
+spec:
+  containers:
+    - name: exchange-app
+      image: cirilla16/cryptocurrencies_service
+      ports:
+        - containerPort: 80
