@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: graph-app
-      image: nomaan308/stockoptiongraph
+      image: kanishkmishra3538/service-stock
       ports:
         - containerPort: 80
