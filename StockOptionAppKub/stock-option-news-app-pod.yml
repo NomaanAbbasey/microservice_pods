@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: news-app
-      image: kemusabe99/finance-news-app:v1.1
+      image: kemusabe99/finnews-app
       ports:
         - containerPort: 80
