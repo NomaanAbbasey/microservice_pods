@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: stock-option-news-app-pod
+  labels:
+    name: stock-news-pod
+    app: stock-news-microservice-app
+
+spec:
+  containers:
+    - name: news-app
+      image: kemusabe99/finance-news-app
+      ports:
+        - containerPort: 80
