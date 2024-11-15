@@ -4,7 +4,7 @@ metadata:
   name: stock-option-exchange-app-pod
   labels:
     name: stock-exchange-pod
-    app: stock-exchange-microservice_app
+    app: stock-exchange-microservice-app
 
 spec:
   containers:
