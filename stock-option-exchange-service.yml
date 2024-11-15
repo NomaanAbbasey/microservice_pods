@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: graph
   labels:
-    name: exhange-service
+    name: exchange-service
     app: stock-exchange-app
 spec:
   type: LoadBalancer
