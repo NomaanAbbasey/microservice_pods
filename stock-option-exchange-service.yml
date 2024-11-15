@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: graph
   labels:
-    name: graph-service
-    app: stock-graph-app
+    name: exhange-service
+    app: stock-exchange-app
 spec:
   type: LoadBalancer
   ports:
