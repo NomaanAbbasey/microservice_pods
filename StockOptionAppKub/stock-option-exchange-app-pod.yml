@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: exchange-app
-      image: cirilla16/cryptocurrencies_service
+      image: cirilla16/cryptocurrencies_service:latest
       ports:
         - containerPort: 80
