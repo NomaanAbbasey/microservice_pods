@@ -1,0 +1,12 @@
+swagger: '2.0'
+info:
+  title: Graph API
+  version: '1.0'
+paths:
+  /hello:
+    get:
+      x-google-backend:
+        address: https://34.45.89.40
+      responses:
+        '200':
+          description: A successful response
