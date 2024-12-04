@@ -9,6 +9,6 @@ metadata:
 spec:
   containers:
     - name: graph-app
-      image: kanishkmishra3538/service-stock:0.0.1
+      image: kanishkmishra3538/service-stock:0.0.3
       ports:
         - containerPort: 80
